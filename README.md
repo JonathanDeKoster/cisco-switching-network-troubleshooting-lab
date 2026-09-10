@@ -199,36 +199,58 @@ show logging
 
 
 ### Initial Connectivity Issue
-
+#### PC1 - Initial connectivity test
+PC1 could reach itself but initially failed to reach the default gateway and Printer1.
 <img width="523" height="526" alt="Cisco1" src="https://github.com/user-attachments/assets/20cb9291-bee8-40bb-b575-01f56347790a" />
 
 
 ### Identifying the VLAN Issue
-
+#### SW1 - VLAN verification
+`show vlan brief` revealed that VLANs 10 and 20 were missing from the SW1
 <img width="511" height="512" alt="Cisco2" src="https://github.com/user-attachments/assets/096385be-33b3-4545-92a1-a0abb72d863b" />
 
 ### Correcting the VLAN Configuration
+#### SW1 - VLANs restored
+VLANs 10 and 20 were created and verified as active
 
 <img width="511" height="517" alt="Cisco3" src="https://github.com/user-attachments/assets/b34482ec-924c-411c-963e-b5f7710c06b6" />
 
 
 ### Final Connectivity
-
+#### PC1 - Connectivity restored
+PC1 successfully reached both the default gateway and Printer1.
 <img width="519" height="523" alt="Cisco4" src="https://github.com/user-attachments/assets/78028b51-bf44-476e-8128-427b90435cc2" />
 
 
 ### Device Discovery
+#### R1 - Printer connectivity and ARP lookup
+R1 successfully reached the printer and used `show arp` to identify the MAC address.
+
 
 <img width="624" height="605" alt="cisco5" src="https://github.com/user-attachments/assets/a7954ff2-6098-4f54-94b3-1673a4a2c605" />
+
+#### SW2 - MAC address and port lookup
+SW2's MAC address table was used to associate the printer's MAC address with Fa0/3.
+
+
 
 <img width="623" height="596" alt="cisco6" src="https://github.com/user-attachments/assets/bd377c7b-8a53-4f95-98d7-8f201d672233" />
 
 
 ### Network Verification
+#### SW2 - Trunk verification
+Verified that the uplink to SW1 was trunking and carrying VLANs 10 and 20.
 
 <img width="623" height="602" alt="Screenshot 2026-09-10 131503" src="https://github.com/user-attachments/assets/38b8b8df-e815-4537-a8b9-bb2252ea5275" />
 
+#### SW2 - Neighbor discovery
+CDP was used to identify the Cisco device connected upstream.
+
 <img width="616" height="268" alt="Screenshot 2026-09-10 132713" src="https://github.com/user-attachments/assets/b01f7d44-756e-472b-8b5e-620b1c8ecc03" />
+
+#### SW2 - Interface health
+Verified the printer's interface status and checked for errors.
+
 
 <img width="621" height="328" alt="Screenshot 2026-09-10 134453" src="https://github.com/user-attachments/assets/a37c5276-3475-4e0b-ba6e-d86d6942e75c" />
 
