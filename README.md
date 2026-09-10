@@ -112,7 +112,7 @@ Key configuration relationships included:
 
 ### Problem
 
-PC1 initially failed to reach its default gateway and the printer despite having a functioning physical connection.
+PC1 initially failed to reach its default gateway and the printer even though its switch port showed as connected.
 
 ### Investigation
 
@@ -187,6 +187,8 @@ What Cisco device is upstream?
 show cdp neighbors detail
 
 Are there link or configuration events?
+    ↓
+show logging
 ```
 
 ## Screenshots / Lab Evidence
@@ -222,7 +224,7 @@ Are there link or configuration events?
 <img width="623" height="596" alt="cisco6" src="https://github.com/user-attachments/assets/bd377c7b-8a53-4f95-98d7-8f201d672233" />
 
 
-### Trunk, Neighbor and Interface Verification
+### Network Verification
 
 <img width="623" height="602" alt="Screenshot 2026-09-10 131503" src="https://github.com/user-attachments/assets/38b8b8df-e815-4537-a8b9-bb2252ea5275" />
 
