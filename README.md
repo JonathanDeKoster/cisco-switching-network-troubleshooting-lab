@@ -208,12 +208,12 @@ PC1 could reach itself but initially failed to reach the default gateway and Pri
 
 ### Identifying the VLAN Issue
 #### SW1 - VLAN verification
-`show vlan brief` revealed that VLANs 10 and 20 were missing from the SW1
+`show vlan brief` revealed that VLANs 10 and 20 were missing from the SW1.
 <img width="511" height="512" alt="Cisco2" src="https://github.com/user-attachments/assets/096385be-33b3-4545-92a1-a0abb72d863b" />
 
 ### Correcting the VLAN Configuration
-#### SW1 - VLANs restored
-VLANs 10 and 20 were created and verified as active
+#### SW1 - VLANs created
+VLANs 10 and 20 were created and verified as active.
 
 <img width="511" height="517" alt="Cisco3" src="https://github.com/user-attachments/assets/b34482ec-924c-411c-963e-b5f7710c06b6" />
 
