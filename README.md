@@ -198,36 +198,33 @@ Are there link or configuration events?
 
 ### Initial Connectivity Issue
 
-<img width="1274" height="688" alt="Screenshot 2026-09-06 140615" src="https://github.com/user-attachments/assets/01ebbe62-ba77-4384-a305-35f9ac7e6090" />
+<img width="523" height="526" alt="Cisco1" src="https://github.com/user-attachments/assets/20cb9291-bee8-40bb-b575-01f56347790a" />
 
 
 ### Identifying the VLAN Issue
 
-<img width="1278" height="682" alt="Screenshot 2026-09-06 140645" src="https://github.com/user-attachments/assets/ea634b70-3194-48b6-8e15-5e4ee64eaa90" />
-
+<img width="511" height="512" alt="Cisco2" src="https://github.com/user-attachments/assets/096385be-33b3-4545-92a1-a0abb72d863b" />
 
 ### Correcting the VLAN Configuration
 
-<img width="1276" height="684" alt="Screenshot 2026-09-06 143242" src="https://github.com/user-attachments/assets/05ef87ba-1d0a-4c35-883e-7a53619d4420" />
+<img width="511" height="517" alt="Cisco3" src="https://github.com/user-attachments/assets/b34482ec-924c-411c-963e-b5f7710c06b6" />
+
 
 ### Final Connectivity
 
-<img width="1278" height="684" alt="Screenshot 2026-09-06 144515" src="https://github.com/user-attachments/assets/c32e4c42-33b0-4491-9e95-ac4765f09f76" />
+<img width="519" height="523" alt="Cisco4" src="https://github.com/user-attachments/assets/78028b51-bf44-476e-8128-427b90435cc2" />
+
 
 ### Device Discovery
 
-<img width="1280" height="687" alt="Screenshot 2026-09-09 145505" src="https://github.com/user-attachments/assets/19d94d91-cc69-41c9-9b36-95f8ef9bd817" />
+<img width="624" height="605" alt="cisco5" src="https://github.com/user-attachments/assets/a7954ff2-6098-4f54-94b3-1673a4a2c605" />
 
-<img width="1278" height="683" alt="Screenshot 2026-09-09 145643" src="https://github.com/user-attachments/assets/49a04e37-ca88-48a7-bf83-a273898307a3" />
+<img width="623" height="596" alt="cisco6" src="https://github.com/user-attachments/assets/bd377c7b-8a53-4f95-98d7-8f201d672233" />
 
-### Trunk & Neighbor Verification
+
+### Trunk, Neighbor and Interface Verification
 
 <img width="623" height="602" alt="Screenshot 2026-09-10 131503" src="https://github.com/user-attachments/assets/38b8b8df-e815-4537-a8b9-bb2252ea5275" />
-
-
-<!-- Add screenshot showing `show interfaces trunk` and/or CDP neighbor discovery -->
-
-### Interface Health and Configuration
 
 <img width="616" height="268" alt="Screenshot 2026-09-10 132713" src="https://github.com/user-attachments/assets/b01f7d44-756e-472b-8b5e-620b1c8ecc03" />
 
@@ -244,5 +241,3 @@ Are there link or configuration events?
 - Used ping and traceroute for connectivity verification.
 - Troubleshot a VLAN configuration issue using a structured, evidence-based process.
 - Practiced verifying configurations before making changes and saving known-good configurations.
-    ↓
-show logging
