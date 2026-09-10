@@ -187,5 +187,62 @@ What Cisco device is upstream?
 show cdp neighbors detail
 
 Are there link or configuration events?
+
+
+## Screenshots / Lab Evidence
+
+### Network Topology
+
+<img width="1277" height="683" alt="Screenshot 2026-09-06 113839" src="https://github.com/user-attachments/assets/4d9c3e24-372e-451e-bf48-eae79e9e4102" />
+
+
+### Initial Connectivity Issue
+
+<img width="1274" height="688" alt="Screenshot 2026-09-06 140615" src="https://github.com/user-attachments/assets/01ebbe62-ba77-4384-a305-35f9ac7e6090" />
+
+
+### Identifying the VLAN Issue
+
+<img width="1278" height="682" alt="Screenshot 2026-09-06 140645" src="https://github.com/user-attachments/assets/ea634b70-3194-48b6-8e15-5e4ee64eaa90" />
+
+
+### Correcting the VLAN Configuration
+
+<img width="1276" height="684" alt="Screenshot 2026-09-06 143242" src="https://github.com/user-attachments/assets/05ef87ba-1d0a-4c35-883e-7a53619d4420" />
+
+### Final Connectivity
+
+<img width="1278" height="684" alt="Screenshot 2026-09-06 144515" src="https://github.com/user-attachments/assets/c32e4c42-33b0-4491-9e95-ac4765f09f76" />
+
+### Device Discovery
+
+<img width="1280" height="687" alt="Screenshot 2026-09-09 145505" src="https://github.com/user-attachments/assets/19d94d91-cc69-41c9-9b36-95f8ef9bd817" />
+
+<img width="1278" height="683" alt="Screenshot 2026-09-09 145643" src="https://github.com/user-attachments/assets/49a04e37-ca88-48a7-bf83-a273898307a3" />
+
+### Trunk & Neighbor Verification
+
+<img width="623" height="602" alt="Screenshot 2026-09-10 131503" src="https://github.com/user-attachments/assets/38b8b8df-e815-4537-a8b9-bb2252ea5275" />
+
+
+<!-- Add screenshot showing `show interfaces trunk` and/or CDP neighbor discovery -->
+
+### Interface Health and Configuration
+
+<img width="616" height="268" alt="Screenshot 2026-09-10 132713" src="https://github.com/user-attachments/assets/b01f7d44-756e-472b-8b5e-620b1c8ecc03" />
+
+<img width="621" height="328" alt="Screenshot 2026-09-10 134453" src="https://github.com/user-attachments/assets/a37c5276-3475-4e0b-ba6e-d86d6942e75c" />
+
+## Key Takeaways
+
+- Configured VLANs and access ports on Cisco switches.
+- Configured and verified 802.1Q trunking.
+- Configured router-on-a-stick inter-VLAN routing.
+- Used ARP and MAC address tables to trace an endpoint through the network.
+- Used CDP and spanning tree to verify Layer 2 topology.
+- Practiced interface health and log analysis.
+- Used ping and traceroute for connectivity verification.
+- Troubleshot a VLAN configuration issue using a structured, evidence-based process.
+- Practiced verifying configurations before making changes and saving known-good configurations.
     ↓
 show logging
