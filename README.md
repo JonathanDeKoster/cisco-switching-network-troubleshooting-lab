@@ -201,6 +201,8 @@ show logging
 ### Initial Connectivity Issue
 #### PC1 - Initial connectivity test
 PC1 could reach itself but initially failed to reach the default gateway and Printer1.
+
+
 <img width="523" height="526" alt="Cisco1" src="https://github.com/user-attachments/assets/20cb9291-bee8-40bb-b575-01f56347790a" />
 
 
