@@ -187,7 +187,7 @@ What Cisco device is upstream?
 show cdp neighbors detail
 
 Are there link or configuration events?
-
+```
 
 ## Screenshots / Lab Evidence
 
