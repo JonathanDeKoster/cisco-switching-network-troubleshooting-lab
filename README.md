@@ -8,6 +8,11 @@ The lab included a router, two switches, a workstation, and a printer endpoint. 
 
 The lab also included a troubleshooting scenario where connectivity issues were investigated using Cisco IOS commands and endpoint testing.
 
+
+## Lab Source
+
+This lab was completed using a hands-on lab from Jake's Tech Labs as part of my ongoing IT training. The environment was recreated and documented independently in my own lab environment.
+
 ## Topology
 
 ```text
